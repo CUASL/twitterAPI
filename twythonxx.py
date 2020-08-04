@@ -79,4 +79,4 @@ class twit:
             k.append(temp)
         return k
     def stream(self,text):
-        self.streamer.statuses.filter(track = '#lisa')
+        self.streamer.statuses.filter(track = text)
